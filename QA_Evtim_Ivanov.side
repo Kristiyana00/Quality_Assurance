@@ -1,0 +1,964 @@
+{
+  "id": "b2b17608-3540-4298-a16a-2a7027f76ac3",
+  "version": "2.0",
+  "name": "OzoneLoginTest1",
+  "url": "https://www.ozone.bg/homepage.php/",
+  "tests": [{
+    "id": "79f8fb9d-637f-435c-8c7a-078dab85bd21",
+    "name": "OzoneLoginTest1",
+    "commands": [{
+      "id": "bc11f469-0e56-49ae-9c08-251a6179d675",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/account/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "872cc5bc-2209-4570-81b4-feb14cad7cf9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd2d22a0-a8a0-49a8-a0c0-1f1f6385a3e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ee687a-682a-4c48-a702-6ebd7a374951",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "andresakza112a98a@abv.bg"
+    }, {
+      "id": "96bfeee2-724d-409b-befa-447080dddfad",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2fb87dd-a1aa-4172-8173-29dce8e57dd4",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789aA"
+    }, {
+      "id": "aab300cd-9e81-42f0-95a2-0dbe5c08b38c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.required",
+      "targets": [
+        ["css=.required", "css:finder"],
+        ["xpath=//form[@id='login-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Запомни ме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bb755c8-5c5a-4e74-8823-23c85cc9e73f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e242756-cf2e-4cb3-9eb8-0d87b498c060",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d249f836-9f53-4e87-b23f-16e6717de98b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dad7858-a298-4a8b-b3dd-5300e0267785",
+      "comment": "",
+      "command": "click",
+      "target": "id=send2",
+      "targets": [
+        ["id=send2", "id"],
+        ["name=send", "name"],
+        ["css=#send2", "css:finder"],
+        ["xpath=//button[@id='send2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2614fe25-d94e-4e11-9a9d-dc59fd916cb5",
+    "name": "OzoneLoginTest2",
+    "commands": [{
+      "id": "0aabb78a-4cbf-4020-96c0-56c51f17739d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/customer/account/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aaf7390-e246-41f9-b6a6-77b35bd0e19e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd6a5683-ada3-4f61-b7de-418c0784097e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "asdsad@abv.bg"
+    }, {
+      "id": "c1f9ffd9-bdfc-4248-8ac7-f6ae247562b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e494472b-b492-40b0-a291-de86250b7769",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789aA"
+    }, {
+      "id": "f8cff1d4-48f2-46e4-accb-136efa14cd80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.required",
+      "targets": [
+        ["css=.required", "css:finder"],
+        ["xpath=//form[@id='login-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Запомни ме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a01cfc03-a32f-4449-8ed9-b64c74d52d20",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be6ea2f-09dd-43be-b1b1-817531600b2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "908e585f-ae40-4037-b572-01e6facafe09",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df09df0-0030-43c3-9c26-789f22d0602e",
+      "comment": "",
+      "command": "click",
+      "target": "id=send2",
+      "targets": [
+        ["id=send2", "id"],
+        ["name=send", "name"],
+        ["css=#send2", "css:finder"],
+        ["xpath=//button[@id='send2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "824038a2-672c-4ad2-bc19-1b27c8b1a24f",
+    "name": "OzoneLoginTest3",
+    "commands": [{
+      "id": "44f39343-9a4c-4be6-932a-a5d74d51eae2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/customer/account/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "843c942e-cd6a-41f5-b81e-7009f0cba8d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74c95cdf-a808-46ea-9fae-3cd1357e5b2b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Вход с Аpple",
+      "targets": [
+        ["linkText=Вход с Аpple", "linkText"],
+        ["css=.apple-login", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&redirect_uri=https%3A%2F%2Fwww.ozone.bg%2Fappleredirect.php&client_id=bg.ozone.web&state=f266fef18e6bac1c9003dd2be5e8c1a9&scope=name%20email')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Вход с Аpple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9906d191-3ed8-4c71-8ba7-febd504cc87b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Вход с Аpple",
+      "targets": [
+        ["linkText=Вход с Аpple", "linkText"],
+        ["css=.apple-login", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/div/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&redirect_uri=https%3A%2F%2Fwww.ozone.bg%2Fappleredirect.php&client_id=bg.ozone.web&state=f266fef18e6bac1c9003dd2be5e8c1a9&scope=name%20email')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Вход с Аpple')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa41a59-9190-45df-a019-da161704d816",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "andresakza112a98a@abv.bg"
+    }, {
+      "id": "3d92220f-bb5e-48bb-a313-d74464331b66",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f67ddf2-2061-46e4-9003-ccf2a1c9793a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "asdsadsad"
+    }, {
+      "id": "3ecf6524-0b6f-49c6-ba97-a46c6314c0da",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cca909c-d391-40ba-93be-12f4ba50b61f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e639b70f-4cb9-4975-9d7e-7da6adbfb88a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d65239-4743-4859-b067-f04d27f87184",
+      "comment": "",
+      "command": "click",
+      "target": "id=send2",
+      "targets": [
+        ["id=send2", "id"],
+        ["name=send", "name"],
+        ["css=#send2", "css:finder"],
+        ["xpath=//button[@id='send2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cabe39b6-9fcd-4672-9603-b31222e7b008",
+    "name": "OzoneLoginTest4",
+    "commands": [{
+      "id": "d15adc44-d8db-499f-a3ff-aa319b90419f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/customer/account/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dce51bbd-f784-4a27-ba16-99336739fc44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26dd9e84-5223-48fa-a573-4dadc6aa4b64",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c6e47da-7eea-480f-97a4-c884157882a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "asdasd@abv.bg"
+    }, {
+      "id": "3509b824-e4fd-4a68-8ef7-8f6aef1311d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea910648-7be0-45d5-a809-27ddd45b6328",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "asdasdsad"
+    }, {
+      "id": "0c0212d8-018a-4e13-b413-cd37353a0e79",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "9480e686-1897-4e8e-a378-b2f800eea40b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90f2dd2-a773-4b62-a81c-49e1a9e82b48",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "70f4202f-afc5-47fe-a20c-d385d1cafd8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=send2",
+      "targets": [
+        ["id=send2", "id"],
+        ["name=send", "name"],
+        ["css=#send2", "css:finder"],
+        ["xpath=//button[@id='send2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85e39e17-ecd7-4e61-8a37-9c5aa1316092",
+    "name": "OzoneSortTest1",
+    "commands": [{
+      "id": "5e323045-aaca-48c9-8c06-eb8c155b5ea3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca6bfed-0383-428e-a057-d2bafffb80f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a887211-c0f4-40b2-8a6e-2f67f509c59d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e95b1f3-cb3e-4e35-91ea-e6e18b581d59",
+      "comment": "",
+      "command": "click",
+      "target": "css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item",
+      "targets": [
+        ["css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item", "css:finder"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f26cadb-72af-418f-9b2f-9151aaa9bbd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > .link",
+      "targets": [
+        ["css=.open li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//span[@onclick=\"window.open('https://www.ozone.bg/posledno-dobaveni?dir=asc&order=name', '_self')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Име')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f136f28-0ce5-47be-b6cf-332d9d6ffd62",
+    "name": "OzoneSortTest2",
+    "commands": [{
+      "id": "d34bd649-5f45-4213-a611-b2c59516a160",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed391f81-62b8-4bd9-a79f-066ad06b0a62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b3f318b-2d2c-4c97-bedf-51c1b81d3621",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01e6c14-a9d6-47be-80c6-5659c7960cc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item",
+      "targets": [
+        ["css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item", "css:finder"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f6511f-0a27-4d4b-9f56-10df6e0dddab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(2) > .link",
+      "targets": [
+        ["css=.open li:nth-child(2) > .link", "css:finder"],
+        ["xpath=//span[@onclick=\"window.open('https://www.ozone.bg/posledno-dobaveni?dir=asc&order=price', '_self')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Цена')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9ac0926-c8eb-46a5-be34-66f56f63d07b",
+    "name": "OzoneSortTest3",
+    "commands": [{
+      "id": "84ffcd7e-ee15-459d-be17-e02a9dbe454c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b27e78aa-d38d-4d26-9fdc-184bb8e73eb9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99e00f4a-fb53-4bb3-8a95-a0dcab777a31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90001e47-9bc6-4e28-9d58-da66e6d1e823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "719406e0-1e18-4249-bb65-b30128a8aa23",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02389b79-84f8-4f4b-a6ee-4f97429ce09b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open > .open-item",
+      "targets": [
+        ["css=.open > .open-item", "css:finder"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6478787a-d0ed-412a-a007-42f31be195ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(3) > .link",
+      "targets": [
+        ["css=.open li:nth-child(3) > .link", "css:finder"],
+        ["xpath=//span[@onclick=\"window.open('https://www.ozone.bg/posledno-dobaveni?order=best_discount', '_self')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/ul/li[3]/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Най-голяма отстъпка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d16fa960-8ace-4199-8bb6-ba30decc812a",
+    "name": "OzoneSortTest4",
+    "commands": [{
+      "id": "d8c4dcb8-608b-41ef-9a2e-0f2be018de38",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d64cd066-c8a3-4c2b-be80-fd684b95dcdc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0388e9ab-cf87-4069-8286-448be57eece6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb0d3b45-a6c0-4f69-8ca1-f8f4d841ab8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item",
+      "targets": [
+        ["css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item", "css:finder"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ac6008-15f0-4cdb-ab2f-4153b86af46b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(4) > .link",
+      "targets": [
+        ["css=.open li:nth-child(4) > .link", "css:finder"],
+        ["xpath=//span[@onclick=\"window.open('https://www.ozone.bg/posledno-dobaveni?order=best_sellers', '_self')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/ul/li[4]/span", "xpath:idRelative"],
+        ["xpath=//li[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Най-продавани')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8909311f-5e39-49e9-83bd-19d66f66affe",
+    "name": "OzoneSortTest5",
+    "commands": [{
+      "id": "e6b8250b-0c5b-4fbb-9c67-17ce96bbcf9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c25864a6-0acd-4abd-8e7c-d1d34da04714",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x478",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1afd307-cab5-4792-8969-798b848fd1e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28cd8f38-5db0-433e-a645-e47c408946e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0222ce25-0c10-48c3-8f2d-96b45045893b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9290860c-9842-499f-8ade-b881a16031f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item",
+      "targets": [
+        ["css=#products-list > .col-xs-12 > .toolbar > div > .drop-down > .open-item", "css:finder"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d219fbd7-cb1b-4e73-8b91-a21aab3c72ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(5) > .link",
+      "targets": [
+        ["css=.open li:nth-child(5) > .link", "css:finder"],
+        ["xpath=//span[@onclick=\"window.open('https://www.ozone.bg/posledno-dobaveni?order=most_reviewed', '_self')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='products-list']/div/div/div[2]/div/ul/li[5]/span", "xpath:idRelative"],
+        ["xpath=//li[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Най-коментирани')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84c59f6e-8caa-470c-a0b9-772552e7e52c",
+    "name": "OzoneTabsTest1",
+    "commands": [{
+      "id": "2c9bf269-956b-4d07-9c41-e5763c8c3f6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3c9982a-eaa0-4b4b-82ea-78d68331fc28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0966c25-e610-4164-94d8-acadf010a291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(1) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Най-нови')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/posledno-dobaveni/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7870ef0b-3197-4b94-a9e4-4f3e1e0009a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(2) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Разопаковани')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/razopakovani/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51557a79-ed7b-4eb3-9ea6-cf39d625f26d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(3) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Промоции')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/promotions/?%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D1%86%D0%B8%D0%B8')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd20e3c3-e82e-4be9-89dc-b06ed9fc103e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.additional-main-nav li:nth-child(4) > a",
+      "targets": [
+        ["css=.additional-main-nav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Нашите магазини')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.ozone.bg/our-shops/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2fa6e698-47ad-490d-bf58-83223dfdfd09",
+    "name": "OzoneSearchTest",
+    "commands": [{
+      "id": "00c9bb91-171c-4baa-a746-ec820d4ad15c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ozone.bg/homepage.php/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "476c36fd-9a14-48fc-9fd5-63ff3a12a667",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e55a6611-a630-46bb-90fb-4a6b2484be1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e45877-be46-415d-b666-6bf4e81711d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Fifa"
+    }, {
+      "id": "b30cab80-3c32-4575-a7cf-71d2670ce144",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["name=q", "name"],
+        ["css=#search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_mini_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ec324206-f14b-49a7-bd3b-dadd7aecc859",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,15.199999809265137)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "76361585-0447-4441-9936-96a0c88b65d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["79f8fb9d-637f-435c-8c7a-078dab85bd21"]
+  }],
+  "urls": ["https://www.ozone.bg/", "https://www.ozone.bg/customer/account/login/", "https://www.ozone.bg/homepage.php/"],
+  "plugins": []
+}
